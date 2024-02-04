@@ -68,6 +68,23 @@ We've applied various regression algorithms, including Simple Linear Regression,
 The best-performing model has been saved using the joblib library, facilitating future use and deployment.
 
 ## Deployment
+# My Awesome Sales Prediction App
+
+### User Interface
+
+### Input Form
+![Input Form1](static/images/UI1.PNG)
+![Input Form2](static/images/UI2.PNG)
+
+### Prediction Result
+![Prediction Result](static/images/predictions.PNG)
+
+## Example Prediction
+
+The following example shows a prediction result:
+
+```plaintext
+Predicted Sales: $1069
 
 For deployment, we recommend using frameworks such as Flask. Deployment considerations include creating APIs for model predictions and ensuring the security of user data.
 
