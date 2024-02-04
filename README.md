@@ -83,7 +83,7 @@ The best-performing model has been saved using the joblib library, facilitating 
 
 The following example shows a prediction result:
 
-```plaintext
+
 Predicted Sales: $1069
 
 For deployment, we recommend using frameworks such as Flask. Deployment considerations include creating APIs for model predictions and ensuring the security of user data.
