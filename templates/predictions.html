@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Predictions</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('{{ url_for("static", filename="images/background.jpg") }}');
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Set text color to white for better visibility */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh; /* Set height to full viewport height */
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px; /* Adjust padding to your liking */
+            flex-grow: 1; /* Allow the container to take up remaining space */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px; /* Adjust margin to your liking */
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 10px 0; /* Adjust margin to your liking */
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffcc00; /* Set link color to a contrasting color */
+            font-size: 1.2em;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            padding: 10px; /* Add padding for better appearance */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sales Predictions</h1>
+        <p>Predicted Sales: <span id="prediction">{{ prediction }}</span></p>
+    </div>
+    <a href="/">Back to Home</a>
+</body>
+</html>
