@@ -1,9 +1,8 @@
-# MartForecast: Navigating Retail Success with Predictive Analytics
+# BigMart Analysis and Prediction on Sales Data
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)  ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)  ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![seaborn](https://img.shields.io/badge/seaborn-%23150458.svg?style=for-the-badge&logo=seaborn&logoColor=white)
 ![image](templates/images/background.jpg)
 
-Welcome to MartForecast, your guide to navigating retail success through predictive analytics. This project is designed to help retail businesses, specifically the BigMart retail chain, optimize inventory management and boost sales by providing accurate sales predictions for individual products at specific stores. Through data exploration, analysis, and machine learning, MartForecast aims to uncover key factors influencing sales performance, enabling strategic decision-making.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -29,7 +28,7 @@ Welcome to MartForecast, your guide to navigating retail success through predict
 
 ## Introduction
 
-Welcome to MartForecast, your guide to navigating retail success through predictive analytics. This project is designed to help retail businesses, specifically the BigMart retail chain, optimize inventory management and boost sales by providing accurate sales predictions for individual products at specific stores. Through data exploration, analysis, and machine learning, MartForecast aims to uncover key factors influencing sales performance, enabling strategic decision-making.
+Welcome to BigMart, your guide to navigating retail success through predictive analytics. This project is designed to help retail businesses, specifically the BigMart retail chain, optimize inventory management and boost sales by providing accurate sales predictions for individual products at specific stores. Through data exploration, analysis, and machine learning, MartForecast aims to uncover key factors influencing sales performance, enabling strategic decision-making.
 
 ## Business Understanding
 
@@ -43,7 +42,7 @@ The dataset used for this project presents challenges such as missing values, re
 
 ## Project Significance
 
-MartForecast aims to not only optimize inventory and boost sales for BigMart but also provide a framework for future decision-making. Understanding the key drivers of sales can guide product placement, promotional strategies, and inventory stocking levels, leading to improved operational efficiency and customer satisfaction.
+BigMart aims to not only optimize inventory and boost sales for BigMart but also provide a framework for future decision-making. Understanding the key drivers of sales can guide product placement, promotional strategies, and inventory stocking levels, leading to improved operational efficiency and customer satisfaction.
 
 ## Data Understanding
 
@@ -94,21 +93,21 @@ Continuous improvement of the recommender system, implementing feedback mechanis
 
 ## Installation Instructions
 
-To run MartForecast on your local machine, follow these installation steps:
+To run BigMart on your local machine, follow these installation steps:
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/Dudimath/MartForecast-Navigating-Retail-Success-with-Predictive-Analytics.git
+   git clone https://github.com/Dudimath/BigMart-Analysis-and-Prediction-on-Sales-Data.git
 
 ## Usage Examples
 
-To run MartForecast on your local machine, follow these steps:
+To run BigMart on your local machine, follow these steps:
 
 1. **Navigate to the project directory:**
 
     ```bash
-    cd MartForecast
+    cd BigMart
     ```
 
 2. **Install the required dependencies using:**
@@ -125,7 +124,7 @@ To run MartForecast on your local machine, follow these steps:
 
 ### Example Commands
 
-Here are some examples demonstrating how to interact with MartForecast:
+Here are some examples demonstrating how to interact with BigMart:
 
 - **Generate sales predictions for a specific product:**
 
