@@ -1,0 +1,7 @@
+Flask==2.0.1
+scikit-learn==0.24.2
+joblib==1.0.1
+numpy==1.21.0
+libblas3
+liblapack3
+libatlas-base-dev
